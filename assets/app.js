@@ -10,14 +10,11 @@ const positionElement = (e) => {
 window.addEventListener('mousemove', positionElement);
 
 const hoverElement = document.getElementById('hoverElement');
-// const targetElement = document.getElementById('cursor');
 
-// Додаємо обробник для наведення миші на hoverElement
 hoverElement.addEventListener('mouseenter', () => {
     cursor.classList.add('hover');
 });
 
-// Видаляємо обробник для виходу миші з hoverElement
 hoverElement.addEventListener('mouseleave', () => {
     cursor.classList.remove('hover');
 });
