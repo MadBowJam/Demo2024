@@ -1,0 +1,128 @@
+//@font-face {
+//  font-family: 'Nib Pro';
+//  src: url('../font/Nib Pro/NibPro-Light.eot');
+//  src: local('Nib Pro Light'), local('NibPro-Light'),
+//  url('../font/Nib Pro/NibPro-Light.eot?#iefix') format('embedded-opentype'),
+//  url('../font/Nib Pro/NibPro-Light.woff2') format('woff2'),
+//  url('../font/Nib Pro/NibPro-Light.woff') format('woff'),
+//  url('../font/Nib Pro/NibPro-Light.ttf') format('truetype');
+//  font-weight: 300;
+//  font-style: normal;
+//}
+//
+//@font-face {
+//  font-family: 'Nib Pro';
+//  src: url('../font/Nib Pro/NibPro-Italic.eot');
+//  src: local('Nib Pro Italic'), local('NibPro-Italic'),
+//  url('../font/Nib Pro/NibPro-Italic.eot?#iefix') format('embedded-opentype'),
+//  url('../font/Nib Pro/NibPro-Italic.woff2') format('woff2'),
+//  url('../font/Nib Pro/NibPro-Italic.woff') format('woff'),
+//  url('../font/Nib Pro/NibPro-Italic.ttf') format('truetype');
+//  font-weight: normal;
+//  font-style: italic;
+//}
+//
+//@font-face {
+//  font-family: 'Nib Pro';
+//  src: url('../font/Nib Pro/NibPro-SemiBold.eot');
+//  src: local('Nib Pro SemiBold'), local('NibPro-SemiBold'),
+//  url('../font/Nib Pro/NibPro-SemiBold.eot?#iefix') format('embedded-opentype'),
+//  url('../font/Nib Pro/NibPro-SemiBold.woff2') format('woff2'),
+//  url('../font/Nib Pro/NibPro-SemiBold.woff') format('woff'),
+//  url('../font/Nib Pro/NibPro-SemiBold.ttf') format('truetype');
+//  font-weight: 600;
+//  font-style: normal;
+//}
+//
+//@font-face {
+//  font-family: 'Nib Pro';
+//  src: url('../font/Nib Pro/NibPro-Bold.eot');
+//  src: local('Nib Pro Bold'), local('NibPro-Bold'),
+//  url('../font/Nib Pro/NibPro-Bold.eot?#iefix') format('embedded-opentype'),
+//  url('../font/Nib Pro/NibPro-Bold.woff2') format('woff2'),
+//  url('../font/Nib Pro/NibPro-Bold.woff') format('woff'),
+//  url('../font/Nib Pro/NibPro-Bold.ttf') format('truetype');
+//  font-weight: bold;
+//  font-style: normal;
+//}
+//
+//@font-face {
+//  font-family: 'Nib Pro';
+//  src: url('../font/Nib Pro/NibPro-BlackItalic.eot');
+//  src: local('Nib Pro Black Italic'), local('NibPro-BlackItalic'),
+//  url('../font/Nib Pro/NibPro-BlackItalic.eot?#iefix') format('embedded-opentype'),
+//  url('../font/Nib Pro/NibPro-BlackItalic.woff2') format('woff2'),
+//  url('../font/Nib Pro/NibPro-BlackItalic.woff') format('woff'),
+//  url('../font/Nib Pro/NibPro-BlackItalic.ttf') format('truetype');
+//  font-weight: 900;
+//  font-style: italic;
+//}
+//
+//@font-face {
+//  font-family: 'Nib Pro';
+//  src: url('../font/Nib Pro/NibPro-BoldItalic.eot');
+//  src: local('Nib Pro Bold Italic'), local('NibPro-BoldItalic'),
+//  url('../font/Nib Pro/NibPro-BoldItalic.eot?#iefix') format('embedded-opentype'),
+//  url('../font/Nib Pro/NibPro-BoldItalic.woff2') format('woff2'),
+//  url('../font/Nib Pro/NibPro-BoldItalic.woff') format('woff'),
+//  url('../font/Nib Pro/NibPro-BoldItalic.ttf') format('truetype');
+//  font-weight: bold;
+//  font-style: italic;
+//}
+//
+//@font-face {
+//  font-family: 'Nib Pro';
+//  src: url('../font/Nib Pro/NibPro-LightItalic.eot');
+//  src: local('Nib Pro Light Italic'), local('NibPro-LightItalic'),
+//  url('../font/Nib Pro/NibPro-LightItalic.eot?#iefix') format('embedded-opentype'),
+//  url('../font/Nib Pro/NibPro-LightItalic.woff2') format('woff2'),
+//  url('../font/Nib Pro/NibPro-LightItalic.woff') format('woff'),
+//  url('../font/Nib Pro/NibPro-LightItalic.ttf') format('truetype');
+//  font-weight: 300;
+//  font-style: italic;
+//}
+//
+//@font-face {
+//  font-family: 'Nib Pro';
+//  src: url('../font/Nib Pro/NibPro-Black.eot');
+//  src: local('Nib Pro Black'), local('NibPro-Black'),
+//  url('../font/Nib Pro/NibPro-Black.eot?#iefix') format('embedded-opentype'),
+//  url('../font/Nib Pro/NibPro-Black.woff2') format('woff2'),
+//  url('../font/Nib Pro/NibPro-Black.woff') format('woff'),
+//  url('../font/Nib Pro/NibPro-Black.ttf') format('truetype');
+//  font-weight: 900;
+//  font-style: normal;
+//}
+
+@font-face {
+  font-family: 'Nib Pro';
+  src: url('../font/Nib Pro/NibPro-LightItalic.ttf') format('truetype');
+  //src: url('../font/Nib Pro/NibPro-SemiBoldItalic.eot');
+  //src: local('Nib Pro SemiBold Italic'), local('NibPro-SemiBoldItalic'),
+  //url('../font/Nib Pro/NibPro-SemiBoldItalic.eot?#iefix') format('embedded-opentype'),
+  //url('../font/Nib Pro/NibPro-SemiBoldItalic.woff2') format('woff2'),
+  //url('../font/Nib Pro/NibPro-SemiBoldItalic.woff') format('woff'),
+  //url('../font/Nib Pro/NibPro-SemiBoldItalic.ttf') format('truetype');
+  font-weight: 400;
+  font-style: italic;
+}
+
+//@font-face {
+//  font-family: 'Nib Pro';
+//  src: url('../font/Nib Pro/NibPro-Regular.eot');
+//  src: local('Nib Pro Regular'), local('NibPro-Regular'),
+//  url('../font/Nib Pro/NibPro-Regular.eot?#iefix') format('embedded-opentype'),
+//  url('../font/Nib Pro/NibPro-Regular.woff2') format('woff2'),
+//  url('../font/Nib Pro/NibPro-Regular.woff') format('woff'),
+//  url('../font/Nib Pro/NibPro-Regular.ttf') format('truetype');
+//  font-weight: normal;
+//  font-style: normal;
+//}
+
+@font-face {
+  font-family: 'Sailec';
+  src: url('../font/Sailec-Font/Sailec-Medium.ttf') format('truetype');
+  //url('../font/Saelic-Font/Saelic-Bold.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}

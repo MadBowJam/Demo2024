@@ -1,7 +1,24 @@
-body {
-  background-color: #171717;
+@font-face {
+  font-family: "Nib Pro";
+  src: url("../font/Nib Pro/NibPro-LightItalic.ttf") format("truetype");
+  font-weight: 400;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Sailec";
+  src: url("../font/Sailec-Font/Sailec-Medium.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
   cursor: none;
-  height: 120vh;
 }
 
 .cursor {
@@ -24,24 +41,108 @@ body {
   margin: -32px 0 0 -32px;
 }
 
+.banner {
+  height: 100vh;
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 250px 0 120px;
+  position: relative;
+}
+.banner_image {
+  display: block;
+  width: 560px;
+  margin: 0 auto;
+  animation: rotate 60s linear infinite;
+}
+.banner_text_title {
+  position: absolute;
+  font-size: 125px;
+}
+.banner_text_title.italic {
+  font-weight: 400;
+  font-style: italic;
+}
+.banner_text_title.italic:first-child {
+  top: 300px;
+  left: 100px;
+}
+.banner_text_title.italic:last-child {
+  bottom: 325px;
+  right: 200px;
+}
+.banner_text_title.regular {
+  font-family: "Sailec";
+  font-size: 100px;
+  top: 450px;
+}
+.banner_text_title.regular:nth-child(2) {
+  left: 0;
+}
+.banner_text_title.regular:nth-child(3) {
+  right: 0;
+}
+.banner_description {
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 2;
+  position: absolute;
+  left: 0;
+  bottom: 150px;
+}
+.banner_description_inner {
+  margin-top: 30px;
+  display: block;
+  width: 200px;
+  height: 50px;
+}
+.banner_description_link {
+  font-style: italic;
+  color: unset;
+  height: 50px;
+  margin-top: 10px;
+  display: block;
+}
+.banner_description_bracket {
+  font-size: 50px;
+  line-height: 10px;
+  vertical-align: bottom;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.menu {
+  width: 100%;
+  height: 120px;
+  position: fixed;
+  background: linear-gradient(180deg, #FAFBFB 0%, rgba(250, 251, 251, 0) 100%);
+  z-index: 50;
+}
+
 body {
   margin: 0;
   padding: 0;
+  font-family: "Saelic";
+  cursor: none;
+}
+
+.blank {
+  display: block;
+  width: 100%;
+  height: 500px;
+  background-color: black;
+}
+.blank.second {
+  background-color: gray;
 }
 
 .container {
   z-index: 50;
-}
-
-.menu {
-  width: 100%;
-  height: 50%;
-  position: absolute;
-  background-color: #fff;
-  z-index: 50;
-}
-.menu:hover {
-  background: aqua;
 }
 
 /*# sourceMappingURL=style.css.map */
