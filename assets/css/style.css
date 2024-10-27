@@ -58,6 +58,9 @@ ul, ol {
   margin: 0 auto;
   animation: rotate 120s linear infinite;
 }
+.banner_text {
+  position: relative;
+}
 .banner_text_title {
   position: absolute;
   font-size: 125px;
@@ -67,17 +70,17 @@ ul, ol {
   font-style: italic;
 }
 .banner_text_title.italic:first-child {
-  top: 300px;
+  top: -500px;
   left: 100px;
 }
 .banner_text_title.italic:last-child {
-  bottom: 350px;
+  bottom: 100px;
   right: 200px;
 }
 .banner_text_title.regular {
   font-family: "Sailec";
   font-size: 100px;
-  top: 425px;
+  top: -350px;
 }
 .banner_text_title.regular:nth-child(2) {
   left: 0;

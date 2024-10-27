@@ -14,6 +14,7 @@
   }
 
   &_text {
+    position: relative;
 
     &_title {
       position: absolute;
@@ -25,12 +26,12 @@
         font-style: italic;
 
         &:first-child {
-          top: 300px;
+          top: -500px;
           left: 100px;
         }
 
         &:last-child {
-          bottom: 350px;
+          bottom: 100px;
           right: 200px;
         }
       }
@@ -38,7 +39,7 @@
       &.regular {
         font-family: 'Sailec';
         font-size: 100px;
-        top: 425px;
+        top: -350px;
 
         &:nth-child(2) {
           left: 0;
