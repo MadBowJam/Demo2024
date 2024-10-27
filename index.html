@@ -11,9 +11,113 @@
 <body>
     <div class="cursor" id="cursor"></div>
 
-
     <div class="container">
-        <div class="menu hoverElement"></div>
+        <div class="menu">
+            <div class="menu_logo hoverElement">
+                <a href="#">
+                    <img class="menu_logo_img" src="assets/images/black.png" alt="Logo">
+                </a>
+            </div>
+
+            <div class="menu_main">
+                <ul class="menu_main_list">
+                    <li class="menu_main_item hoverElement"><a href="#" class="menu_main_link">Каталог</a></li>
+                    <li class="menu_main_item hoverElement"><a href="#" class="menu_main_link">Підбір догляду</a></li>
+                    <li class="menu_main_item hoverElement"><a href="#" class="menu_main_link">Консультація</a></li>
+                    <li class="menu_main_item hoverElement"><a href="#" class="menu_main_link">Журнал</a></li>
+                    <li class="menu_main_item hoverElement"><a href="#" class="menu_main_link">Про нас</a></li>
+                    <li class="menu_main_item hoverElement"><a href="#" class="menu_main_link">Контакти</a></li>
+                </ul>
+            </div>
+
+            <div class="menu_additional">
+                <ul class="menu_additional_list">
+                    <li class="menu_additional_item hoverElement">
+                        <a href="#">
+                            <img src="assets/images/icons/search.svg" alt="Search">
+                        </a>
+                    </li>
+                    <li class="menu_additional_item hoverElement">
+                        <a href="#">
+                            <img src="assets/images/icons/heart.svg" alt="Favorite">
+                        </a>
+                    </li>
+                    <li class="menu_additional_item hoverElement">
+                        <a href="#">
+                            <img src="assets/images/icons/user.svg" alt="User">
+                        </a>
+                    </li>
+                    <li class="menu_additional_item hoverElement">
+                        <a href="#">
+                            <img src="assets/images/icons/shopping-bag.svg" alt="Shopping Bag">
+                            <div class="menu_additional_counter">0</div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="catalog">
+            <div class="catalog_inner">
+                <h3 class="catalog_header">Тип продукту</h3>
+                <ul class="catalog_list">
+                    <li class="catalog_item">
+                        <a href="#">test</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="catalog_inner">
+                <h3 class="catalog_header">За проблемою</h3>
+                <ul class="catalog_list">
+                    <li class="catalog_item">
+                        <a href="#">test</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="catalog_inner">
+                <h3 class="catalog_header">За інгрідієнтами</h3>
+                <ul class="catalog_list">
+                    <li class="catalog_item">
+                        <a href="#">test</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="catalog_inner">
+                <h3 class="catalog_header">Бестселлери</h3>
+                <ul class="catalog_list">
+                    <li class="catalog_item">
+                        <a href="#">test</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="catalog_inner">
+                <h3 class="catalog_header">Бренди</h3>
+                <ul class="catalog_list">
+                    <li class="catalog_item">
+                        <a href="#">test</a>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+
+        <div class="menu_additional_search">
+            <form action="#">
+                <input class="menu_additional_search_input" type="text" name="search" id="search">
+                <label class="menu_additional_search_label" for="search">
+                    <span class="menu_additional_search_text">
+                        <span class="menu_additional_search_bracket">(</span>
+                        Пошук
+                        <span class="menu_additional_search_bracket">)</span>
+                    </span>
+                </label>
+            </form>
+
+        </div>
 
         <div class="banner">
             <img class="banner_image" src="assets/images/Img.png" alt="Зображення криги">
@@ -43,9 +147,6 @@
         <div class="blank"></div>
         <div class="blank second"></div>
     </div>
-
-
-
 </body>
 <script src="assets/app.js"></script>
 </html>

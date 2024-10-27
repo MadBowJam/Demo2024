@@ -21,6 +21,10 @@ a {
   cursor: none;
 }
 
+ul, ol {
+  list-style: none;
+}
+
 .cursor {
   width: 16px;
   height: 16px;
@@ -52,7 +56,7 @@ a {
   display: block;
   width: 560px;
   margin: 0 auto;
-  animation: rotate 60s linear infinite;
+  animation: rotate 120s linear infinite;
 }
 .banner_text_title {
   position: absolute;
@@ -67,13 +71,13 @@ a {
   left: 100px;
 }
 .banner_text_title.italic:last-child {
-  bottom: 325px;
+  bottom: 350px;
   right: 200px;
 }
 .banner_text_title.regular {
   font-family: "Sailec";
   font-size: 100px;
-  top: 450px;
+  top: 425px;
 }
 .banner_text_title.regular:nth-child(2) {
   left: 0;
@@ -120,8 +124,120 @@ a {
   width: 100%;
   height: 120px;
   position: fixed;
-  background: linear-gradient(180deg, #FAFBFB 0%, rgba(250, 251, 251, 0) 100%);
+  background: linear-gradient(180deg, rgb(250, 251, 251), rgba(250, 251, 251, 0) 100%);
   z-index: 50;
+}
+.menu.active {
+  backdrop-filter: blur(20px);
+  background: unset;
+}
+.menu_logo {
+  position: absolute;
+  top: 25px;
+  left: 50px;
+}
+.menu_logo_img {
+  height: 30px;
+}
+.menu_main {
+  display: table;
+  margin: 33px auto 0;
+}
+.menu_main_list {
+  display: flex;
+  flex-direction: row;
+}
+.menu_main_item {
+  margin-right: 20px;
+}
+.menu_main_link {
+  color: black;
+  margin: 0 5px;
+}
+.menu_main_link.active {
+  margin: 0;
+}
+.menu_additional {
+  position: absolute;
+  top: 30px;
+  right: 50px;
+}
+.menu_additional_list {
+  display: flex;
+}
+.menu_additional_item {
+  margin-right: 20px;
+}
+.menu_additional_counter {
+  position: absolute;
+  top: 2px;
+  right: 5px;
+  color: black;
+}
+.menu_additional_search {
+  display: none;
+  position: fixed;
+  top: 120px;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  backdrop-filter: blur(20px);
+  z-index: 100;
+}
+.menu_additional_search.active {
+  display: block;
+}
+.menu_additional_search_label, .menu_additional_search_input {
+  display: flex;
+  margin: 0 auto;
+  cursor: none !important;
+}
+.menu_additional_search_label {
+  margin-top: 50px;
+}
+.menu_additional_search_input {
+  margin: 250px auto 0;
+  outline: none;
+  box-shadow: none;
+  border: none;
+  background: none;
+  padding: 10px 30px;
+  border-bottom: 1px solid gray;
+  font-size: 100px;
+  text-align: center;
+  max-width: 900px;
+  font-style: italic;
+}
+.menu_additional_search_bracket {
+  margin: 0 auto;
+  font-size: 56px;
+  line-height: 10px;
+  vertical-align: bottom;
+}
+.menu_additional_search_text {
+  font-size: 24px;
+  margin: 0 auto;
+  font-style: italic;
+}
+
+.catalog {
+  position: fixed;
+  top: 120px;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  backdrop-filter: blur(20px);
+  display: none;
+  z-index: 100;
+  padding: 20px 100px 20px 50px;
+  justify-content: space-between;
+}
+.catalog_item {
+  margin: 10px 0;
+}
+.catalog_header {
+  font-style: italic;
+  margin-bottom: 30px;
 }
 
 body {
@@ -130,15 +246,19 @@ body {
   font-family: "Saelic";
   cursor: none;
 }
+body.no-scroll {
+  overflow: hidden;
+  height: 100%;
+}
 
 .blank {
   display: block;
   width: 100%;
-  height: 500px;
-  background-color: black;
+  height: 1000px;
+  background-color: coral;
 }
 .blank.second {
-  background-color: gray;
+  background-color: thistle;
 }
 
 .container {

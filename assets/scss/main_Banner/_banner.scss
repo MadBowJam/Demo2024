@@ -10,12 +10,10 @@
     display: block;
     width: 560px;
     margin: 0 auto;
-    animation: rotate 60s linear infinite;
+    animation: rotate 120s linear infinite;
   }
 
   &_text {
-    //position: absolute;
-    //top: 256px;
 
     &_title {
       position: absolute;
@@ -32,7 +30,7 @@
         }
 
         &:last-child {
-          bottom: 325px;
+          bottom: 350px;
           right: 200px;
         }
       }
@@ -40,7 +38,7 @@
       &.regular {
         font-family: 'Sailec';
         font-size: 100px;
-        top: 450px;
+        top: 425px;
 
         &:nth-child(2) {
           left: 0;
@@ -80,7 +78,6 @@
       font-size: 50px;
       line-height: 10px;
       vertical-align: bottom;
-
     }
   }
 }
